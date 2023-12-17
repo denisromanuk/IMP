@@ -1,37 +1,39 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class LogicManager : MonoBehaviour
 {
-    /*
-    public Player P;
+    public GameObject bluePrefab;
+    public GameObject greenPrefab;
+    public GameObject redPrefab;
+    Player _player;
+    TMP_Text _stats;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        P = GetComponent<Player>();
-        P = new Player();
+    private void Awake() {
 
-        Debug.Log(PlayerPrefs.GetString("player"));
-        CreatePlayer();
-        Debug.Log("LM: " + P.Speed.ToString());
-    }
-
-    // Update is called once per frame
-    public void CreatePlayer()
-    {
-        switch(PlayerPrefs.GetString("player"))
+        switch(PlayerPrefs.GetInt("selectedPlayer"))
         {
-            case "blue":
-                P.Stats(6,12,4,30);
+            case 1:
+                Instantiate(bluePrefab, new Vector3(0, -2, 10), Quaternion.identity);
                 break;
-            case "green":
-                P.Stats(4,8,6,22);
+            case 2:
+                Instantiate(greenPrefab, new Vector3(0, -2, 10), Quaternion.identity);
                 break;
-            case "red":
-                P.Stats(2,19,4,30);
+            case 3:
+                Instantiate(redPrefab, new Vector3(0, -2, 10), Quaternion.identity);
                 break;
         }
-    }*/
+
+
+        //hp:  |  dmg:  |  speed:  |  fire rate:
+
+        _player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
+        _stats = GameObject.FindGameObjectWithTag("Stats").GetComponent<TMP_Text>();
+    }
+
+    private void Update() {
+        _stats.text = $"hp: {_player.hp} |  dmg: {_player.dmg} |  speed: {_player.speed} |  fire rate: {_player.fireRate}";
+    }
 }

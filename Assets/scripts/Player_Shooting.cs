@@ -17,7 +17,7 @@ public class Player_Shooting : MonoBehaviour
     void Start() {
         _player = GetComponent<Player>();
 
-        spawnpointOffset = (transform.localScale.x)/2+(bulletPrefab.transform.localScale.x)/2+0.011f;
+        spawnpointOffset = (transform.localScale.x)/2+(bulletPrefab.transform.localScale.x)/2+0.011f; //0.011f je perfektní spot :)
     }
 
     void Update()
