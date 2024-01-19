@@ -110,106 +110,106 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: head_static
+      name: blue_head_idle
       rect:
         serializedVersion: 2
-        x: 69
-        y: 40
-        width: 150
+        x: 1
+        y: 21
+        width: 145
         height: 121
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3342aff318de623408f92966079264d9
-      internalID: -1549315338
+      spriteID: e4b89e7b37122b645b42b14e896dfb2e
+      internalID: -2105416452
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: head_down
+      name: blue_head_down
       rect:
         serializedVersion: 2
-        x: 272
-        y: 31
-        width: 159
-        height: 129
+        x: 210
+        y: 20
+        width: 145
+        height: 121
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 69706dc0c6590444086f38e1147bac3b
-      internalID: -274385149
+      spriteID: 4ac73f66b7533954b8a34224f33583ea
+      internalID: -2029355657
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: head_right
+      name: blue_head_right
       rect:
         serializedVersion: 2
-        x: 491
-        y: 36
-        width: 178
-        height: 124
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
+        x: 425
+        y: 14
+        width: 169
+        height: 121
+      alignment: 9
+      pivot: {x: 0.43, y: 0.5}
+      border: {x: 0, y: 0, z: 24, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cc178b962b11d804d8bccafe4cc3e3aa
-      internalID: -687176037
+      spriteID: e8d277dfd6ae6ff43b56b46870f2aef1
+      internalID: -970632005
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: head_up
+      name: blue_head_up
       rect:
         serializedVersion: 2
-        x: 714
-        y: 34
-        width: 148
-        height: 144
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
+        x: 646
+        y: 9
+        width: 145
+        height: 141
+      alignment: 9
+      pivot: {x: 0.51, y: 0.43}
+      border: {x: 0, y: 0, z: 0, w: 22}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5f97e9580a7322e4bbf6a84363dfce50
-      internalID: -1205753640
+      spriteID: 5671d55eeda9bc346a51ce74a018817d
+      internalID: -595703077
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: head_left
+      name: blue_head_left
       rect:
         serializedVersion: 2
-        x: 901
-        y: 34
-        width: 178
-        height: 124
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
+        x: 830
+        y: 14
+        width: 173
+        height: 121
+      alignment: 9
+      pivot: {x: 0.57, y: 0.5}
+      border: {x: 24, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 297e8631af64e71409a778f303a4ebe3
-      internalID: 1395169264
+      spriteID: 2fce23425af76974a89e37d4f3af7a5c
+      internalID: -1350729558
       vertices: []
       indices: 
       edges: []
@@ -225,11 +225,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      head_down: -274385149
-      head_left: 1395169264
-      head_right: -687176037
-      head_static: -1549315338
-      head_up: -1205753640
+      blue_head_down: -2029355657
+      blue_head_idle: -2105416452
+      blue_head_left: -1350729558
+      blue_head_right: -970632005
+      blue_head_up: -595703077
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
