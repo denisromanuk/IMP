@@ -10,9 +10,9 @@ public class Enemy2 : MonoBehaviour
     public float countdown = 0f;
     private int time = 3;
 
-    private void FixedUpdate() {
+    private void FixedUpdate() 
+    {
         countdownText.text = time.ToString();
-
         countdown += 1f * Time.deltaTime;
         if(countdown > 0.5f)
         {
@@ -20,7 +20,6 @@ public class Enemy2 : MonoBehaviour
             time--;
         }
 
-        
         if(time < 1){
             Explode();
         }

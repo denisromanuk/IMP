@@ -10,14 +10,16 @@ TagManager:
   - TileMap
   - Room
   - StartRoom
+  - TreasureRoom
+  - BossRoom
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - TileMap
   - Water
   - UI
-  - 
+  - Player
   - 
   - 
   - 

@@ -13,8 +13,8 @@ GameObject:
   - component: {fileID: 8329222765804739244}
   - component: {fileID: 4996441973334958244}
   - component: {fileID: 8468670034762098130}
-  - component: {fileID: 7537552352254149224}
-  - component: {fileID: 7139669081229473374}
+  - component: {fileID: 693556001940499090}
+  - component: {fileID: 6987088455275798362}
   m_Layer: 0
   m_Name: charger
   m_TagString: Enemy
@@ -31,7 +31,7 @@ Transform:
   m_GameObject: {fileID: 516057182417812686}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.68, y: 2.08, z: 10}
+  m_LocalPosition: {x: 0, y: 0, z: 10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -178,14 +178,14 @@ MonoBehaviour:
   dmg: 1
   speed: 3
   fireRate: 0.9
---- !u!114 &7537552352254149224
+--- !u!114 &693556001940499090
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 516057182417812686}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7d80a68a3b873be4d9e432099c87110e, type: 3}
   m_Name: 
@@ -193,14 +193,14 @@ MonoBehaviour:
   bulletSpawnPoint: {fileID: 8571215299431537107}
   bulletPrefab: {fileID: 5128911463525816758, guid: 949f1f713bdbc6c4fbf05ed14f82b869, type: 3}
   bulletSpeed: 8
---- !u!114 &7139669081229473374
+--- !u!114 &6987088455275798362
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 516057182417812686}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1131b0cce6a6dd146904cb7c6129de25, type: 3}
   m_Name: 
